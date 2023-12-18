@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAMoonNodes.h"
-#import "AAMoonNodes.h"
+#include "KPCAAMoonNodes.h"
+#include "AAMoonNodes.h"
 
 
 double KPCAAMoonNodes_K(double Year)

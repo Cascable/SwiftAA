@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAACoordinateTransformation.h"
-#import "AACoordinateTransformation.h"
+#include "KPCAACoordinateTransformation.h"
+#include "AACoordinateTransformation.h"
 
 KPCAA2DCoordinateComponents KPCAACoordinateTransformation_Equatorial2Ecliptic(double Alpha, double Delta, double Epsilon)
 {

@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAMoonPhases.h"
-#import "AAMoonPhases.h"
+#include "KPCAAMoonPhases.h"
+#include "AAMoonPhases.h"
 
 
 double KPCAAMoonPhases_K(double Year)

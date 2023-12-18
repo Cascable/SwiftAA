@@ -18,7 +18,7 @@
 #include "math.h"
 #include "stdbool.h"
 
-#if __LP64__ || NS_BUILD_32_LIKE_64
+#if __LP64__ || NS_BUILD_32_LIKE_64 || _WIN64
 typedef long NSInteger;
 typedef unsigned long NSUInteger;
 #else

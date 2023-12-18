@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAPrecession.h"
-#import "AAPrecession.h"
+#include "KPCAAPrecession.h"
+#include "AAPrecession.h"
 
 KPCAA2DCoordinateComponents KPCAAPrecession_PrecessEquatorial(double Alpha, double Delta, double JD0, double JD)
 {

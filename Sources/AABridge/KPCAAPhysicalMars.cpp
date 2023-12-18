@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAPhysicalMars.h"
-#import "AAPhysicalMars.h"
+#include "KPCAAPhysicalMars.h"
+#include "AAPhysicalMars.h"
 
 KPCAAPhysicalMarsDetails KPCAAPhysicalMars_CalculateDetails(double JD, bool highPrecision)
 {

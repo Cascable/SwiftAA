@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAParallax.h"
-#import "AAParallax.h"
+#include "KPCAAParallax.h"
+#include "AAParallax.h"
 
 KPCAA2DCoordinateComponents KPCAAParallax_Equatorial2TopocentricDelta(double Alpha, double Delta, double Distance, double Longitude, double Latitude, double Height, double JD)
 {

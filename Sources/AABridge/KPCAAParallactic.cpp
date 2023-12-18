@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAParallactic.h"
-#import "AAParallactic.h"
+#include "KPCAAParallactic.h"
+#include "AAParallactic.h"
 
 double KPCAAParallactic_ParallacticAngle(double HourAngle, double Latitude, double delta)
 {

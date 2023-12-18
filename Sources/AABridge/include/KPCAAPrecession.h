@@ -6,8 +6,9 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "PlatformHelpers.h"
-#import "KPCAA2DCoordinate.h"
+#include "PlatformHelpers.h"
+#include "KPCAA2DCoordinate.h"
+#pragma once
 
 #ifdef __cplusplus
 extern "C" {

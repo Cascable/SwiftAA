@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAEquinoxesAndSolstices.h"
-#import "AAEquinoxesAndSolstices.h"
+#include "KPCAAEquinoxesAndSolstices.h"
+#include "AAEquinoxesAndSolstices.h"
 
 double KPCAAEquinoxesAndSolstices_NorthwardEquinox(long Year, bool highPrecision)
 {

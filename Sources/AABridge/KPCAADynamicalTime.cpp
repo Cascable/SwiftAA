@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAADynamicalTime.h"
-#import "AADynamicalTime.h"
+#include "KPCAADynamicalTime.h"
+#include "AADynamicalTime.h"
 
 double KPCAADynamicalTime_DeltaT(double JD)
 {

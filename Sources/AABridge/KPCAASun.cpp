@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAASun.h"
-#import "AASun.h"
+#include "KPCAASun.h"
+#include "AASun.h"
 
 double KPCAASun_GeometricEclipticLongitude(double JD, bool highPrecision)
 {

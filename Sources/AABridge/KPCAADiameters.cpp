@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAADiameters.h"
-#import "AADiameters.h"
+#include "KPCAADiameters.h"
+#include "AADiameters.h"
 #include <stdexcept>
 
 double KPCAADiameters_SunSemidiameterA(double Delta)

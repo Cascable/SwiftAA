@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAMoonPerigeeApogee.h"
-#import "AAMoonPerigeeApogee.h"
+#include "KPCAAMoonPerigeeApogee.h"
+#include "AAMoonPerigeeApogee.h"
 
 double KPCAAMoonPerigeeApogee_K(double Year)
 {

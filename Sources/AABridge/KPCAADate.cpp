@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAADate.h"
-#import "AADate.h"
+#include "KPCAADate.h"
+#include "AADate.h"
 
 double KPCAADate_DateToJulianDay(long year, long month, long day, bool useGregorianCalendar) {
     return CAADate::DateToJD(year, month, day, (bool)useGregorianCalendar);

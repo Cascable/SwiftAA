@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAMoonIlluminatedFraction.h"
-#import "AAMoonIlluminatedFraction.h"
+#include "KPCAAMoonIlluminatedFraction.h"
+#include "AAMoonIlluminatedFraction.h"
 
 
 double KPCAAMoonIlluminatedFraction_GeocentricElongation(double ObjectAlpha, double ObjectDelta, double SunAlpha, double SunDelta)

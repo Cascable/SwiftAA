@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAPlanetPerihelionAphelion.h"
-#import "AAPlanetPerihelionAphelion.h"
+#include "KPCAAPlanetPerihelionAphelion.h"
+#include "AAPlanetPerihelionAphelion.h"
 
 
 long KPCAAPlanetPerihelionAphelion_MercuryK(double Year)

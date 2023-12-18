@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAASaturnRings.h"
-#import "AASaturnRings.h"
+#include "KPCAASaturnRings.h"
+#include "AASaturnRings.h"
 
 KPCAASaturnRingDetails KPCAASaturnRings_Calculate(double JD, bool highPrecision)
 {

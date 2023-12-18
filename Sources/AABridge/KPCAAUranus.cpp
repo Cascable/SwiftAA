@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAUranus.h"
-#import "AAUranus.h"
+#include "KPCAAUranus.h"
+#include "AAUranus.h"
 
 double KPCAAUranus_EclipticLongitude(double JD, bool highPrecision)
 {

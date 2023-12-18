@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAMars.h"
-#import "AAMars.h"
+#include "KPCAAMars.h"
+#include "AAMars.h"
 
 double KPCAAMars_EclipticLongitude(double JD, bool highPrecision)
 {

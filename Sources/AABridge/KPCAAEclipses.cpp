@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAEclipses.h"
-#import "AAEclipses.h"
+#include "KPCAAEclipses.h"
+#include "AAEclipses.h"
 
 KPCAASolarEclipseDetails KPCAAEclipses_CalculateSolar(double k)
 {

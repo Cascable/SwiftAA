@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAVenus.h"
-#import "AAVenus.h"
+#include "KPCAAVenus.h"
+#include "AAVenus.h"
 
 double KPCAAVenus_EclipticLongitude(double JD, bool highPrecision)
 {

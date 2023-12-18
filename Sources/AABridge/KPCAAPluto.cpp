@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAPluto.h"
-#import "AAPluto.h"
+#include "KPCAAPluto.h"
+#include "AAPluto.h"
 
 
 double KPCAAPluto_EclipticLongitude(double JD)

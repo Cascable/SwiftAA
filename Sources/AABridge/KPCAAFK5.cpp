@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAFK5.h"
-#import "AAFK5.h"
+#include "KPCAAFK5.h"
+#include "AAFK5.h"
 
 
 double KPCAAFK5_CorrectionInLongitude(double Longitude, double Latitude, double JD)

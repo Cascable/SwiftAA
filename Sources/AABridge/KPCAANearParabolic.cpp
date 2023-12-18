@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAANearParabolic.h"
-#import "AANearParabolic.h"
+#include "KPCAANearParabolic.h"
+#include "AANearParabolic.h"
 
 KPCAANearParabolicObjectDetails KPCAANearParabolic_CalculateObjectDetails(double JD, KPCAANearParabolicObjectElements elements, bool highPrecision)
 {

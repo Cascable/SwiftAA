@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAMoonMaxDeclinations.h"
-#import "AAMoonMaxDeclinations.h"
+#include "KPCAAMoonMaxDeclinations.h"
+#include "AAMoonMaxDeclinations.h"
 
 double KPCAAMoonMaxDeclinations_K(double Year)
 {

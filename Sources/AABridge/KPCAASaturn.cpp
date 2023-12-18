@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAASaturn.h"
-#import "AASaturn.h"
+#include "KPCAASaturn.h"
+#include "AASaturn.h"
 
 double KPCAASaturn_EclipticLongitude(double JD, bool highPrecision)
 {

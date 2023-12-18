@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAANeptune.h"
-#import "AANeptune.h"
+#include "KPCAANeptune.h"
+#include "AANeptune.h"
 
 double KPCAANeptune_EclipticLongitude(double JD, bool highPrecision)
 {

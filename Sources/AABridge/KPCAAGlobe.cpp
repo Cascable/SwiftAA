@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAGlobe.h"
-#import "AAGlobe.h"
+#include "KPCAAGlobe.h"
+#include "AAGlobe.h"
 
 double KPCAAGlobe_RhoSinThetaPrime(double GeographicalLatitude, double Height)
 {

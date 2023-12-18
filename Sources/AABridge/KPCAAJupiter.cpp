@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAJupiter.h"
-#import "AAJupiter.h"
+#include "KPCAAJupiter.h"
+#include "AAJupiter.h"
 
 double KPCAAJupiter_EclipticLongitude(double JD, bool highPrecision)
 {

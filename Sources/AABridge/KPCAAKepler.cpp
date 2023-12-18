@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAKepler.h"
-#import "AAKepler.h"
+#include "KPCAAKepler.h"
+#include "AAKepler.h"
 
 double KPCAAKepler_Calculate(double M, double e, int nIterations)
 {

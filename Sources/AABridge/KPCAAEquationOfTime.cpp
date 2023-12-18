@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAEquationOfTime.h"
-#import "AAEquationOfTime.h"
+#include "KPCAAEquationOfTime.h"
+#include "AAEquationOfTime.h"
 
 double KPCAAEquationOfTime_Calculate(double JD, bool highPrecision)
 {

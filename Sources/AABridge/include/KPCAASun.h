@@ -7,8 +7,9 @@
 //
 
 
-#import "PlatformHelpers.h"
-#import "KPCAA3DCoordinate.h"
+#include "PlatformHelpers.h"
+#include "KPCAA3DCoordinate.h"
+#pragma once
 
 #ifdef __cplusplus
 extern "C" {

@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAAberration.h"
-#import "AAAberration.h"
+#include "KPCAAAberration.h"
+#include "AAAberration.h"
 
 KPCAA3DCoordinateComponents KPCAAAberration_EarthVelocity(double JD, bool highPrecision)
 {

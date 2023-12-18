@@ -35,7 +35,7 @@ public struct JulianDay: NumericType, CustomStringConvertible {
     ///   - minute: The minute of the date
     ///   - second: The second of the date. Precision goes to the nanosecond.
     public init(year: Int, month: Int, day: Int, hour: Int = 0, minute: Int = 0, second: Double = 0.0) {
-        let handle = KPCAADate_CreateWithDateTime(year, month, Double(day), Double(hour), Double(minute), second, true)
+        let handle = KPCAADate_CreateWithDateTime(BridgedLongType(year), BridgedLongType(month), Double(day), Double(hour), Double(minute), second, true)
         let julianValue: Double = KPCAADate_GetJulian(handle)
         KPCAADate_Destroy(handle)
         self.init(julianValue)
@@ -66,11 +66,11 @@ public extension JulianDay {
         let decimalSeconds = KPCAADate_GetSecond(aaDate)
         let roundedSeconds = decimalSeconds.rounded(.towardZero)
         let nanoseconds = (decimalSeconds - roundedSeconds) * 1e9
-        let components = DateComponents(year: KPCAADate_GetYear(aaDate),
-                                        month: KPCAADate_GetMonth(aaDate),
-                                        day: KPCAADate_GetDay(aaDate),
-                                        hour: KPCAADate_GetHour(aaDate),
-                                        minute: KPCAADate_GetMinute(aaDate),
+        let components = DateComponents(year: Int(KPCAADate_GetYear(aaDate)),
+                                        month: Int(KPCAADate_GetMonth(aaDate)),
+                                        day: Int(KPCAADate_GetDay(aaDate)),
+                                        hour: Int(KPCAADate_GetHour(aaDate)),
+                                        minute: Int(KPCAADate_GetMinute(aaDate)),
                                         second: Int(roundedSeconds),
                                         nanosecond: Int(nanoseconds))
         KPCAADate_Destroy(aaDate)

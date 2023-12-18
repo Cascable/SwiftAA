@@ -6,11 +6,11 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAElliptical.h"
-#import "KPCAAElementsPlanetaryOrbit.h"
-#import "KPCAAPlanetPerihelionAphelion.h"
-#import "AADate.h"
-#import "AAElliptical.h"
+#include "KPCAAElliptical.h"
+#include "KPCAAElementsPlanetaryOrbit.h"
+#include "KPCAAPlanetPerihelionAphelion.h"
+#include "AADate.h"
+#include "AAElliptical.h"
 #include <stdexcept>
 
 CAAElliptical::Object ellipticalObjectFromKPCAAEllipticalObject(KPCAAEllipticalObject object);

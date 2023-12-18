@@ -6,7 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "PlatformHelpers.h"
+#include "PlatformHelpers.h"
+#pragma once
 
 #ifdef __cplusplus
 extern "C" {

@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAABinaryStar.h"
-#import "AABinaryStar.h"
+#include "KPCAABinaryStar.h"
+#include "AABinaryStar.h"
 
 KPCAABinaryStarDetails KPCAABinaryStar_CalculateDetails(double t, double P, double T, double e, double a, double i, double Omega, double w)
 {

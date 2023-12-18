@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAMercury.h"
-#import "AAMercury.h"
+#include "KPCAAMercury.h"
+#include "AAMercury.h"
 
 double KPCAAMercury_EclipticLongitude(double JD, bool highPrecision)
 {

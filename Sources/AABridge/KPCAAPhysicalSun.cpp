@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAPhysicalSun.h"
-#import "AAPhysicalSun.h"
+#include "KPCAAPhysicalSun.h"
+#include "AAPhysicalSun.h"
 
 KPCAAPhysicalSunDetails KPCAAPhysicalSun_CalculateDetails(double JD, bool highPrecision)
 {

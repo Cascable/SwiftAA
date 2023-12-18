@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAANodes.h"
-#import "AANodes.h"
+#include "KPCAANodes.h"
+#include "AANodes.h"
 
 KPCAANodeObjectDetails KPCAANodeObjectDetailsMake(CAANodeObjectDetails detailsPlus);
 KPCAANodeObjectDetails KPCAANodeObjectDetailsMake(CAANodeObjectDetails detailsPlus)

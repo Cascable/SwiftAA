@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAInterpolate.h"
-#import "AAInterpolate.h"
+#include "KPCAAInterpolate.h"
+#include "AAInterpolate.h"
 
 double KPCAAInterpolate_Interpolate_1234(double n, double Y1, double Y2, double Y3)
 {

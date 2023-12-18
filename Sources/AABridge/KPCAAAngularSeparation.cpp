@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAAngularSeparation.h"
-#import "AAAngularSeparation.h"
+#include "KPCAAAngularSeparation.h"
+#include "AAAngularSeparation.h"
 
 double KPCAAAngularSeparation_Separation(double Alpha1, double Delta1, double Alpha2, double Delta2)
 {

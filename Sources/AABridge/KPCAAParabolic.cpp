@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAParabolic.h"
-#import "AAParabolic.h"
+#include "KPCAAParabolic.h"
+#include "AAParabolic.h"
 
 double KPCAAParabolic_CalculateBarkers(double W)
 {

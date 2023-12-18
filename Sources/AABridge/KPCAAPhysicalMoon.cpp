@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAPhysicalMoon.h"
-#import "AAPhysicalMoon.h"
+#include "KPCAAPhysicalMoon.h"
+#include "AAPhysicalMoon.h"
 
 KPCAAPhysicalMoonDetails KPCAAPhysicalMoonDetailsMake(CAAPhysicalMoonDetails details); // prototype
 KPCAAPhysicalMoonDetails KPCAAPhysicalMoonDetailsMake(CAAPhysicalMoonDetails details) {

@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAElementsPlanetaryOrbit.h"
-#import "AAElementsPlanetaryOrbit.h"
+#include "KPCAAElementsPlanetaryOrbit.h"
+#include "AAElementsPlanetaryOrbit.h"
 #include <stdexcept>
 
 double KPCAAElementsPlanetaryOrbit_MercuryMeanLongitude(double JD) { return CAAElementsPlanetaryOrbit::MercuryMeanLongitude(JD); }

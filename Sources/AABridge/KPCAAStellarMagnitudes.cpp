@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAStellarMagnitudes.h"
-#import "AAStellarMagnitudes.h"
+#include "KPCAAStellarMagnitudes.h"
+#include "AAStellarMagnitudes.h"
 
 double KPCAAStellarMagnitudes_CombinedMagnitude(double m1, double m2)
 {

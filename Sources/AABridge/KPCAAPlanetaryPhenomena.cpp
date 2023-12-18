@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAPlanetaryPhenomena.h"
-#import "AAPlanetaryPhenomena.h"
+#include "KPCAAPlanetaryPhenomena.h"
+#include "AAPlanetaryPhenomena.h"
 
 double KPCAAPlanetaryPhenomena_K(double Year, KPCPlanetaryObject object, KPCPlanetaryEventType type)
 {

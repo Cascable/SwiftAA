@@ -6,17 +6,17 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAEclipticalElements.h"
-#import "AAEclipticalElements.h"
-#import "KPCAAMercury.h"
-#import "KPCAAVenus.h"
-#import "KPCAAEarth.h"
-#import "KPCAAMars.h"
-#import "KPCAAJupiter.h"
-#import "KPCAASaturn.h"
-#import "KPCAAUranus.h"
-#import "KPCAANeptune.h"
-#import "KPCAAPluto.h"
+#include "KPCAAEclipticalElements.h"
+#include "AAEclipticalElements.h"
+#include "KPCAAMercury.h"
+#include "KPCAAVenus.h"
+#include "KPCAAEarth.h"
+#include "KPCAAMars.h"
+#include "KPCAAJupiter.h"
+#include "KPCAASaturn.h"
+#include "KPCAAUranus.h"
+#include "KPCAANeptune.h"
+#include "KPCAAPluto.h"
 #include <stdexcept>
 
 KPCAAEclipticalElementDetails KPCAAEclipticalElement_CalculateDetails(double i0, double w0, double omega0, double JD0, double JD)

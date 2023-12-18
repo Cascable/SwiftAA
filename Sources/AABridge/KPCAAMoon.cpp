@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAMoon.h"
-#import "AAMoon.h"
+#include "KPCAAMoon.h"
+#include "AAMoon.h"
 
 double KPCAAMoon_MeanLongitude(double JD)
 {

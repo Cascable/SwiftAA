@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAPhysicalJupiter.h"
-#import "AAPhysicalJupiter.h"
+#include "KPCAAPhysicalJupiter.h"
+#include "AAPhysicalJupiter.h"
 
 KPCAAPhysicalJupiterDetails KPCAAPhysicalJupiter_CalculateDetails(double JD, bool highPrecision)
 {

@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAARiseTransitSet.h"
-#import "AARiseTransitSet.h"
+#include "KPCAARiseTransitSet.h"
+#include "AARiseTransitSet.h"
 
 KPCAARiseTransitSetDetails KPCAARiseTransitSet_Calculate(double JD,
                                                          double Alpha1,

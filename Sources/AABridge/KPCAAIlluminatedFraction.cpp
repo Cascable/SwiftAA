@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAIlluminatedFraction.h"
-#import "AAIlluminatedFraction.h"
+#include "KPCAAIlluminatedFraction.h"
+#include "AAIlluminatedFraction.h"
 
 
 double KPCAAIlluminatedFraction_PhaseAngle(double r, double R, double Delta)

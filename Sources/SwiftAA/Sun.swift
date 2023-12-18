@@ -53,7 +53,7 @@ public class Sun: Object, CelestialBody {
     /// - Returns: The julian day of the next start
     public func nextStartOfTimeOfRotation() -> JulianDay {
         let C = ceil((self.julianDay.value - 2398140.2270)/27.2752316) // Equ 29.1 of AA.
-        return JulianDay(KPCAAPhysicalSun_TimeOfStartOfRotation(Int(C)))
+        return JulianDay(KPCAAPhysicalSun_TimeOfStartOfRotation(BridgedLongType(C)))
     }
     
     // MARK: - Coordinates
@@ -133,7 +133,7 @@ public class Sun: Object, CelestialBody {
     /// - Parameter C: The rotation number. C = 1 on November 9, 1853.
     /// - Returns: The julian day of the start of the cycle.
     public static func timeOfStartOfSynodicRotation(rotationNumber C: Int) -> JulianDay {
-        return JulianDay(KPCAAPhysicalSun_TimeOfStartOfRotation(C))
+        return JulianDay(KPCAAPhysicalSun_TimeOfStartOfRotation(BridgedLongType(C)))
     }
     
     // MARK: - Equation of Time

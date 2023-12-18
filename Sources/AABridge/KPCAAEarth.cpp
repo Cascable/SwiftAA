@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAEarth.h"
-#import "AAEarth.h"
+#include "KPCAAEarth.h"
+#include "AAEarth.h"
 
 double KPCAAEarth_EclipticLongitude(double JD, bool highPrecision)
 {

@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAAGalileanMoons.h"
-#import "AAGalileanMoons.h"
+#include "KPCAAGalileanMoons.h"
+#include "AAGalileanMoons.h"
 
 KPCAAGalileanMoonDetails KPCAAGalileanMoonDetailsMake(CAAGalileanMoonDetail detailsPlus);
 KPCAAGalileanMoonDetails KPCAAGalileanMoonDetailsMake(CAAGalileanMoonDetail detailsPlus)

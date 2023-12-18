@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAASidereal.h"
-#import "AASidereal.h"
+#include "KPCAASidereal.h"
+#include "AASidereal.h"
 
 double KPCAASidereal_MeanGreenwichSiderealTime(double JD)
 {

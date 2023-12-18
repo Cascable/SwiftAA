@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAANutation.h"
-#import "AANutation.h"
+#include "KPCAANutation.h"
+#include "AANutation.h"
 
 
 double KPCAANutation_NutationInLongitude(double JD)

@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAASaturnMoons.h"
-#import "AASaturnMoons.h"
+#include "KPCAASaturnMoons.h"
+#include "AASaturnMoons.h"
 
 KPCAASaturnMoonDetails KPCAASaturnMoonDetailMake(CAASaturnMoonDetail detailsPlus);
 KPCAASaturnMoonDetails KPCAASaturnMoonDetailMake(CAASaturnMoonDetail detailsPlus)

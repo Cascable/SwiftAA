@@ -6,8 +6,8 @@
 //  Licensed under the MIT License (see LICENSE file)
 //
 
-#import "KPCAARefraction.h"
-#import "AARefraction.h"
+#include "KPCAARefraction.h"
+#include "AARefraction.h"
 
 double KPCAARefraction_RefractionFromApparentWithAltitude(double Altitude, double Pressure,  double Temperature)
 {
